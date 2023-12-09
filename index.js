@@ -7,6 +7,7 @@ class hero{
         this.tipo = tipo
         
     }
+
 //Função + Estrutura
 
     atacar(){
@@ -35,13 +36,14 @@ class hero{
     }
     
 }
+//Atributos
 
     const carteristicas = new hero("Harry", 25, "mago")  
     const carteristicas1 = new hero("Jack", 30, "guerreiro")
     const carteristicas2 = new hero("Myagi", 90, "monge")
     const carteristicas3 = new hero("Snake", 32, "ninja")
 
-
+//Saída
     carteristicas.atacar()
     carteristicas1.atacar()
     carteristicas2.atacar()
