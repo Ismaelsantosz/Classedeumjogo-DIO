@@ -7,21 +7,27 @@ class hero{
         this.tipo = tipo
         
     }
-//
+//Função + Estrutura
+
     atacar(){
+
        let ataque = ""
+
        switch (this.tipo){
-
-        case "mago": ataque = "magia"
+        case "mago": 
+        ataque = "magia"
         break
 
-        case "guerreiro": ataque = "espada"
+        case "guerreiro": 
+        ataque = "espada"
         break
 
-        case "monge": ataque = "artes marcias"
+        case "monge": 
+        ataque = "artes marcias"
         break
 
-        case "ninja": ataque = "shuriken"
+        case "ninja":
+        ataque = "shuriken"
         break
 
        }
